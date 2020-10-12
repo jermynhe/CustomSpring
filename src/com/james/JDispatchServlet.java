@@ -20,7 +20,7 @@ import java.util.*;
 
 // 创建JDispatchServlet类，重写init()、doGet()和doPost()方法。
 public class JDispatchServlet extends HttpServlet {
-    // 保存所有被扫描到的相关类 com.fang.demo.DemoController，com.fang.demo.DemoServiceImpl
+    // 保存所有被扫描到的相关类 com.james.demo.DemoController，com.fang.demo.DemoServiceImpl
     public List<String> clazzNames = new ArrayList<>();
     // 保存所有初始化的Bean demoController new DemoController()
     public Map<String, Object> iocMap = new HashMap<>();
